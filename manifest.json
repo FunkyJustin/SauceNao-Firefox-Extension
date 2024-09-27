@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Search with SauceNAO",
+  "version": "1.0",
+  "description": "Adds a context menu option to search an image on SauceNAO.",
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icons/icon-48.bmp",
+    "96": "icons/icon-96.bmp"
+  }
+}
